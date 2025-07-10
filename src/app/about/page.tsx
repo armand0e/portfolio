@@ -7,7 +7,6 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { 
   GraduationCap, 
   MapPin, 
-  Calendar, 
   Languages, 
   Trophy,
   Heart,
@@ -95,7 +94,7 @@ export default function About() {
           variants={fadeInUp}
           className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
         >
-          I'm a passionate full-stack developer and University of Florida student who loves 
+          I&apos;m a passionate full-stack developer and University of Florida student who loves 
           turning innovative ideas into reality through code. My journey combines scientific 
           thinking with creative problem-solving.
         </motion.p>
@@ -133,7 +132,7 @@ export default function About() {
                     the real-world impact technology can have.
                   </p>
                   <p>
-                    Today, I'm pursuing my Bachelor's in Microbiology & Cell Science with a Computer 
+                    Today, I&apos;m pursuing my Bachelor&apos;s in Microbiology & Cell Science with a Computer 
                     Science minor at UF, combining my scientific background with my passion for 
                     software development.
                   </p>

@@ -8,8 +8,6 @@ import {
   Linkedin, 
   Github, 
   MapPin, 
-  Calendar,
-  Phone,
   MessageSquare,
   Download,
   ExternalLink,
@@ -151,7 +149,7 @@ export default function Contact() {
           variants={fadeInUp}
           className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
         >
-          I'm always excited to discuss new opportunities, collaborate on projects, 
+          I&apos;m always excited to discuss new opportunities, collaborate on projects, 
           or just have a conversation about technology and innovation.
         </motion.p>
       </motion.section>
@@ -169,7 +167,7 @@ export default function Contact() {
         </motion.h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-          {quickFacts.map((fact, index) => (
+          {quickFacts.map((fact) => (
             <motion.div
               key={fact.label}
               variants={fadeInUp}
