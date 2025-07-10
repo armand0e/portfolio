@@ -60,7 +60,7 @@ const featuredProjects = [
     image: "/api/placeholder/600/400",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "shadcn/ui"],
     github: "https://github.com/armand0e/portfolio",
-    live: "https://arman-rafiee.vercel.app",
+    live: "https://www.armanrafiee.com",
     category: "Web Development",
     icon: Globe,
     color: "from-blue-500 to-cyan-500"
