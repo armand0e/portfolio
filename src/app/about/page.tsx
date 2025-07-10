@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { 
   GraduationCap, 
   MapPin, 
@@ -77,6 +77,11 @@ export default function About() {
       >
         <motion.div variants={fadeInUp} className="mb-8">
           <Avatar className="w-40 h-40 mx-auto mb-6 ring-4 ring-primary/20 ring-offset-4 ring-offset-background">
+            <AvatarImage 
+              src="/Portrait.jpg" 
+              alt="Arman Rafiee" 
+              className="object-cover"
+            />
             <AvatarFallback className="text-6xl bg-gradient-to-br from-primary via-purple-500 to-pink-500 text-white">
               AR
             </AvatarFallback>

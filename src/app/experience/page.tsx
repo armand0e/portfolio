@@ -20,7 +20,8 @@ import {
   Building,
   Star,
   Target,
-  Lightbulb
+  Lightbulb,
+  BarChart3
 } from "lucide-react";
 
 const fadeInUp = {
@@ -118,6 +119,12 @@ const accomplishments = [
   {
     category: "Professional Certifications",
     items: [
+      {
+        title: "Python for Data Analysis",
+        description: "GreatLearning Academy certification in Python data analysis and programming",
+        icon: BarChart3,
+        color: "from-blue-500 to-green-500"
+      },
       {
         title: "Certified Internet Business Associate",
         description: "CIW certification in internet business and web technologies",

@@ -93,7 +93,7 @@ const stats = [
   { label: "Years Coding", value: "5+" },
   { label: "Technologies", value: "15+" },
   { label: "Projects", value: "20+" },
-  { label: "Coffee Cups", value: Number.POSITIVE_INFINITY.toString() }
+  { label: "Coffee Cups", value: "∞" }
 ];
 
 export default function Home() {
@@ -154,7 +154,7 @@ export default function Home() {
           <motion.div variants={itemVariants} className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="bg-gradient-to-r from-foreground via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                Hey, I'm{" "}
+                Hello, I'm{" "}
               </span>
               <motion.span
                 className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent"
