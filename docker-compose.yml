@@ -4,23 +4,5 @@ services:
     environment:
       - NODE_ENV=production
     restart: always
-    networks:
-      - arman-cloudflared
-
-  arman-cloudflared:
-    image: cloudflare/cloudflared:latest
-    container_name: arman-cloudflared
-    restart: always
-    command: tunnel --no-autoupdate run --token ${TOKEN}
-    environment:
-      - TZ=US/Eastern
-      - TOKEN=${ARMAN_TOKEN}
-    networks:
-      - arman-cloudflared
-    depends_on:
-      - portfolio
-
-networks:
-  arman-cloudflared:
-    name: arman-cloudflared
-    driver: bridge
+    expose:
+      - "3000"
