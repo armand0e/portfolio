@@ -244,7 +244,7 @@ export default function Contact() {
                 </CardContent>
 
                 {/* Hover effect overlay */}
-                <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-primary/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
               </Card>
             </motion.div>
           ))}
